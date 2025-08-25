@@ -2,34 +2,15 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import Navbar from './Components/Navbar'
-import About from './Components/About.jsx'
+import Layout from './Components/Views/Shared/Layout/Layout'
 
 function App() {
     const [count, setCount] = useState(0)
     return (
         <>
-            <Navbar />
-            <div>
-                <a href="https://vite.dev" target="_blank">
-                    <img src={viteLogo} className="logo" alt="Vite logo" />
-                </a>
-                <a href="https://react.dev" target="_blank">
-                    <img src={reactLogo} className="logo react" alt="React logo" />
-                </a>
-            </div>
-            <h1>Vite + React</h1>
-            <div className="card">
-                <button onClick={() => setCount((count) => count + 1)}>
-                    count is {count}
-                </button>
-                <p>
-                    Edit <code>src/App.jsx</code> and save to test HMR
-                </p>
-            </div>
-            <p className="read-the-docs">
-                Click on the Vite and React logos to learn more
-            </p>
+            <h1>Private</h1>
+            <h2>My Personal Companion</h2>
+            <h5>Your trusted digital sidekick for everyday life. Private keeps your world organized, secure, and effortlessly accessible.Whether you're planning your week, journaling your thoughts, or just need a quiet space to think-Private is your calm in the digital storm.</h5>
         </>
     )
 }

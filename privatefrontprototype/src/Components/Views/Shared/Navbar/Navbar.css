@@ -1,0 +1,11 @@
+/* Navbar.css */
+.navbar-list {
+    display: flex;
+    align-items: center;
+    background-color: purple;
+}
+
+.navbar-item {
+    margin-right: 30px;
+    text-decoration: none;
+}
